@@ -1,2 +1,4 @@
+export * from './Card';
 export * from './Conteudo';
-export * from './NavBar'
+export * from './Footer';
+export * from './NavBar';

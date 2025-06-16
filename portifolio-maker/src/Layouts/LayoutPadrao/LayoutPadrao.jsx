@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router';
-import { NavBar, Conteudo } from '../../Components';
+import { NavBar, Conteudo, Footer } from '../../Components';
 
 
 const LayoutPadrao = () => {
@@ -9,6 +9,8 @@ const LayoutPadrao = () => {
             <Conteudo>
                 <Outlet />
             </Conteudo>
+            <Footer />
+
         </>
     )
 }
