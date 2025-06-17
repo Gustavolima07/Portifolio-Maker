@@ -25,12 +25,12 @@ const Login = () => {
                          focus:border-violet-400 focus:bg-slate-50" />
                     </div>
 
-                    <div className="flex gap-1 items-center">
+                    <div className="flex gap-1 items-center cursor:pointer">
                         <input type="checkbox" className="" />
                         <span className="text-base">Lembrar-me da Senha</span>
                     </div>
 
-                    <button className="px-10 py-2 text-2xl text-white bg-violet-800 rounded-md
+                    <button className="cursor-pointer px-10 py-2 text-2xl text-white bg-violet-800 rounded-md
                     hover:bg-purple-700 transition-colors duration-300">Login
                     </button>
 
