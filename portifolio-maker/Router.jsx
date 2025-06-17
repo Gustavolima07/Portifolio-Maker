@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router';
 import { LayoutPadrao } from './src/Layouts';
-import { Erro, Inicial } from './src/Pages';
+import { Erro, Inicial, Login } from './src/Pages';
 
 
 const Router = () => {
@@ -8,6 +8,7 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<LayoutPadrao />}>
             <Route path="/" element={<Inicial />} />
+            <Route path="Login" element={<Login />} />
             <Route path="*" element={<Erro />} />
           </Route>
         </Routes>

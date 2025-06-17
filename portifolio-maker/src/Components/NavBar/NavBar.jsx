@@ -25,6 +25,10 @@ const NavBar = () => {
                     </li>
                 </ul>
 
+                <div className=" p-4 text-2xl font-bold">
+                        <Link className="hover:text-gray-500" to="Login">Perfil</Link>
+                </div>
+
             </nav>
         </header>
     );
